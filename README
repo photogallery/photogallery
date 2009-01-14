@@ -1,13 +1,13 @@
 PhotoGallery
 ============
 
-Introduction goes here.
+This is the start of a Ruby on Rails photo gallery plugin.  You can see a live demo at http://plainlystated.com/photo_gallery
+
+Detailed documentation can be found at http://plainlystated.com/projects/photo_gallery
 
 
-Example
-=======
-
-Example goes here.
+Please feel free to try it out.  It works for me, but undoubtedly still needs some work to get it robust enough to work on all systems.  If you have success/problems, drop me a note at patrick@plainlystated.com
 
 
-Copyright (c) 2008 [name of plugin creator], released under the MIT license
+
+Copyright (c) 2009 Patrick Schless, released under the MIT license
