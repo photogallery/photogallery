@@ -1,0 +1,40 @@
+9
+
+dir
+161
+svn://atlas.schless.com/svn/plugins/photo_gallery/trunk/app/views/layouts
+svn://atlas.schless.com/svn
+
+
+
+2008-10-03T05:19:38.453376Z
+149
+deploy
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+885a0f07-57d6-42c8-b580-aa6f4abca2d4
+
+photo_gallery.rhtml
+file
+
+
+
+
+2008-10-03T05:18:34.000000Z
+e344ceac8faf10d0de1b3110336b05b0
+2008-10-03T05:19:38.453376Z
+149
+deploy
+

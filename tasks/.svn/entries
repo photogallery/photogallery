@@ -1,0 +1,40 @@
+9
+
+dir
+161
+svn://atlas.schless.com/svn/plugins/photo_gallery/trunk/tasks
+svn://atlas.schless.com/svn
+
+
+
+2008-09-23T03:23:04.459908Z
+125
+rellik
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+885a0f07-57d6-42c8-b580-aa6f4abca2d4
+
+photo_gallery_tasks.rake
+file
+
+
+
+
+2008-09-29T06:16:10.000000Z
+e64cd153e89905bd07d3afd21b335e01
+2008-09-23T03:23:04.459908Z
+125
+rellik
+

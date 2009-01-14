@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title><%= PhotoGallery.title %></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <%= stylesheet_link_tag 'photo_gallery/style', 'photo_gallery/blue' %>
+    <%= stylesheet_link_tag 'photo_gallery/lightbox' %>
+    <%= javascript_include_tag 'photo_gallery/prototype', 'photo_gallery/scriptaculous' %>
+    <%= javascript_include_tag 'photo_gallery/lightbox' %>
+  </head>
+
+  <body>
+    <div id="container">
+      <%= render :partial => 'shared/horizontal_header' %>
+
+      <div id="wide">
+        <div class="error"><%=h flash[:error] %></div>
+        <div class="notice"><%=h flash[:notice] %></div>
+        <%= yield %>
+      </div>
+    </div>
+    <div id="footer">Design inspired by: <a href="http://www.dannisbet.com/">DanNisbet.com</a> | &copy; 2008 <a href="http://plainlystated.com">PlainlyStated.com</a></div>
+  </body>
+</html>

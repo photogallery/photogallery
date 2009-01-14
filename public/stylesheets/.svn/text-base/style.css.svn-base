@@ -1,0 +1,244 @@
+/* Body Elements */
+body {
+background-color:#000;
+color:#fff;
+margin-top:50px;
+margin-bottom:60px;
+font-size:.75em;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+line-height:1.5em;
+}
+
+#container {
+width:685px;
+margin:0 auto;
+}
+
+#menu {
+width:188px;
+height:332px;
+padding-top:320px;
+padding-right:40px;
+float:left;
+background-repeat:no-repeat;
+text-align:right;
+}
+
+ul {
+list-style-type:none;
+}
+
+li {
+padding-bottom:10px;
+}
+
+.logo1 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:3em;
+}
+
+.shifted_left {
+margin-left: -55px;
+}
+
+.logo2 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:3em;
+color:#fff;
+}
+
+#content {
+float:right;
+padding:15px;
+width:427px;
+}
+
+#wide_content {
+float:right;
+padding: 0 15px 15px 15px;
+width:675px;
+}
+
+#footer {
+clear:both;
+background-image:url("/images/photo_gallery/footer.jpg");
+background-repeat:no-repeat;
+background-position:325px 0px;
+width:675px;
+height:21px;
+padding:5px 10px 0px 0px;
+margin:0 auto;
+color:#404040;
+font-size:.8em;
+text-align:right;
+}
+
+/* Text Effects */
+a {
+text-decoration:none;
+}
+
+#footer a {
+color:#717171;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+h1 {
+color:#fff;
+font-size:1.5em;
+}
+
+h2 {
+color:#bbb;
+font-size:1.25em;
+}
+
+h3 {
+color:#999;
+font-size:1.25em;
+font-weight:normal;
+margin-bottom:5px;
+}
+
+/* Element Effects */
+input, select, textarea {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1em;
+width:350px;
+color: #fff;
+background: #222;
+}
+
+input:hover, select:hover, textarea:hover {
+background: #333;
+}
+
+form {
+width:350px;
+margin:0 auto;
+}
+
+blockquote {
+width:90%;
+margin:0 auto;
+margin-bottom:20px;
+border-color:#999;
+border-width:1px;
+border-style:solid;
+background-color:#333;
+padding:0px 15px 0px 15px;
+}
+
+hr {
+width:98%;
+height:0;
+border:0;
+}
+
+img{
+border:0px;
+}
+
+img.float_left {
+  float: left;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.rounded_thumb_container {
+  width: 160px;
+  margin: 20px;
+  margin-bottom: 50px; 
+  float: left;
+}
+.rounded_thumb{display:block}
+.rounded_thumb *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#565656}
+.rounded_thumb1{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #242424;
+  border-right:1px solid #242424;
+  background:#404040}
+.rounded_thumb2{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #080808;
+  border-right:1px solid #080808;
+  background:#454545}
+.rounded_thumb3{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #454545;
+  border-right:1px solid #454545;}
+.rounded_thumb4{
+  border-left:1px solid #242424;
+  border-right:1px solid #242424}
+.rounded_thumb5{
+  border-left:1px solid #404040;
+  border-right:1px solid #404040}
+.rounded_thumbfg{
+  text-align:center;
+  height: 150px;
+  background:#565656}
+
+/*
+ * Not using, but nice and easy..  may use somewhere else
+ * Usage:
+ * <p class="shadow">
+ *   <img>
+ * </p>
+ *
+p.shadow {
+  position:relative; top: 3px; left: 3px;
+  height: 148px;
+  width: 148px;
+  border-width: 0 3px 3px 0;
+  border-style: solid;
+  border-color: #eee;
+  margin-top: 0px;
+}
+*/
+
+p.shadow img {
+  position:relative; top: -3px; left: -3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff #eee #eee #fff;
+}
+
+.horizontal_bar {
+  background-image: url('/images/photo_gallery/horizontal.png');
+  background-repeat: no-repeat;
+  width: 675px;
+  height: 40px;
+  /*
+  vertical-align: bottom;
+  */
+  padding-top: 10px;
+  padding-left: 3px;
+}
+
+.hover_top_left {
+  display:inline;
+  float: left;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.path_links {
+  margin-bottom: 3px;
+}

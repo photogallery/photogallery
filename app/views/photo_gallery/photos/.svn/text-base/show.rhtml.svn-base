@@ -1,0 +1,5 @@
+<%= path_links %><br /><br />
+
+<%= image_tag(@photo.image.url) %>
+<br />
+<%=h @photo.caption %>
