@@ -1,5 +1,0 @@
-<% @photos.each do |photo| %>
-
-  <%= render :partial => 'shared/rounded_thumb', :locals => {:with_delete => true, :path => {:action => 'show', :id => photo}}, :object => photo  %>
-
-<% end %>
